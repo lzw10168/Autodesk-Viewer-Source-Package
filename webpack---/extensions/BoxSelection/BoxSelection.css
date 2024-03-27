@@ -1,0 +1,18 @@
+.icon-box-selection {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1;
+    stroke-dasharray: 4 2;
+}
+
+.box-selection-contains {
+    border: 1px solid #808080;
+    background-color: rgba(75, 160, 255, 0.3);
+    position: fixed;
+}
+
+.box-selection-intersects {
+    border: 1px dotted #808080;
+    background-color: rgba(75, 255, 160, 0.3);
+    position: fixed;
+}

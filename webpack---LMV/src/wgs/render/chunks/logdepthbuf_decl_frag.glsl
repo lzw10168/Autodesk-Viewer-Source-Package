@@ -1,0 +1,1 @@
+module.exports = "\n#if defined( USE_LOGDEPTHBUF ) && defined( USE_LOGDEPTHBUF_EXT )\n#ifdef POLYGON_OFFSET\n    uniform vec2 polygonOffset;\n    const float epsilon7 = 0.0000001;\n#endif\n    uniform float logDepthBufFC;\n    varying float vFragDepth;\n    varying float vIsPerspective;\n#endif";

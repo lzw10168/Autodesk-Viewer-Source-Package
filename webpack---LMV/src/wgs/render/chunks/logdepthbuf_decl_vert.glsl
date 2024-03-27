@@ -1,0 +1,1 @@
+module.exports = "\n#ifdef USE_LOGDEPTHBUF\n    #ifdef USE_LOGDEPTHBUF_EXT\n        varying float vFragDepth;\n        varying float vIsPerspective;\n    #else\n        uniform float logDepthBufFC;\n    #endif\n    bool isPerspectiveMatrix( mat4 m ) {\n        return m[ 2 ][ 3 ] == - 1.0;\n    }\n#endif";

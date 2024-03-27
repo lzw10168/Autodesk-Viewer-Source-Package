@@ -1,0 +1,46 @@
+.adsk-viewing-viewer .layers-panel {
+    left: 0px;
+    top: 0px;
+    min-width: 320px;
+    min-height: 100px;
+    height: calc(100% - 55px);
+    /* compensate for the toolbar */
+    width: 350px;
+}
+
+.adsk-viewing-viewer .layers-panel .visibility {
+    right: 40px;
+    top: 0px;
+    width: 25px;
+    height: 50px;
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    background-position: 2px 19px;
+    background-repeat: no-repeat;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.adsk-viewing-viewer .layers-panel .visibility.dim {
+    background-position: 2px 16px;
+}
+
+.adsk-viewing-viewer .layers-panel .treeview {
+    height: 100%;
+}
+
+.adsk-viewing-viewer .layers-panel .exclude>lmvheader {
+    display: none;
+}
+
+.adsk-viewing-viewer .layers-panel .exclude {
+    padding-left: 0;
+    left: 0;
+}
+
+.adsk-viewing-viewer .layers-panel .treeview label {
+    padding-left: 17px;
+}
